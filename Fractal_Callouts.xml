@@ -84,7 +84,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac TIDAL WAVE MINIGAME - I will call out a direction. Go to the furthest room in that direction immediately.</send>
+  <send>frac TIDAL WAVE MINIGAME - I will call out a direction. Go to the furthest room in that direction immediately and wait there until I say it is safe.</send>
   </trigger>
   <trigger
    enabled="y"
