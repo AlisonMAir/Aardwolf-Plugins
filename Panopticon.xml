@@ -162,11 +162,13 @@ end</send>
 function OnHelp ()
   world.Note (world.GetPluginInfo (world.GetPluginID (), 3))
 end
-]]>
 
 function OnPluginInstall ()
 	OnHelp()
 end	
+]]>
+
+
 </script> 
 
 </muclient>
