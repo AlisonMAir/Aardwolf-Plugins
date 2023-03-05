@@ -197,7 +197,7 @@ SendNoEcho("echo @W(@MFractal@W) Fractal callouts turned on. Make sure you're th
 <aliases>
   <alias
    script="OnHelp"
-   match="fractal help"
+   match="fractal help callout"
    enabled="y"
   >
   </alias>
