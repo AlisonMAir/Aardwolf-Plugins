@@ -113,7 +113,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac Victory! Return to the center. To collect your reward: nod, unkeep frac, give frac frac.</send>
+  <send>frac Victory! Return to the center. To collect your reward: nod, unkeep frac, give frac frac. If you have Fractal Helper, just type "frac" to use its inbuilt alias.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -209,6 +209,10 @@ function OnHelp ()
   world.Note (world.GetPluginInfo (world.GetPluginID (), 3))
 end
 ]]>
+
+function OnPluginInstall ()
+	OnHelp()
+end
 </script> 
 
 </muclient>
