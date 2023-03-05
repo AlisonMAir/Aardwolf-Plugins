@@ -52,6 +52,14 @@ LEGALITY DISCLAIMER: Like SnD, this script is legal but is easy to make illegal.
   <send>EnableTrigger("scanTrigger", false)</send>
   </trigger>
   <trigger
+   enabled="y"
+   match="You see a * to the *."
+   send_to="12"
+   sequence="100"
+  >
+  <send>EnableTrigger("scanTrigger", false)</send>
+  </trigger>
+  <trigger
    back_colour="8"
    expand_variables="y"
    match="Nothing to see around here with that name."
@@ -155,6 +163,10 @@ function OnHelp ()
   world.Note (world.GetPluginInfo (world.GetPluginID (), 3))
 end
 ]]>
+
+function OnPluginInstall ()
+	OnHelp()
+end	
 </script> 
 
 </muclient>
