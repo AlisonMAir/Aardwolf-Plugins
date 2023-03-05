@@ -131,7 +131,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac FIRE BLOSSOM MINIGAME - Flee/retreat from center immediately, then proceed to either the northwest or southeast corners of the arena and stay put.</send>
+  <send>frac FIRE BLOSSOM MINIGAME - Flee/retreat from center immediately, then proceed to either the northwest or southeast corners of the arena and wait there until I say it is safe.</send>
   </trigger>
   <trigger
    enabled="y"
