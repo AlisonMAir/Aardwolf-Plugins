@@ -45,6 +45,30 @@ fractal gagflee on/off - When on, flee/retreat messages will be gagged in Fracta
   >
   </trigger>
   <trigger
+  enabled="y"
+  group="fractalgag"
+  match="* has arrived through an abyssal portal."
+  omit_from_output="y"
+  sequence="100"
+  >
+  </trigger>
+  <trigger
+  enabled="y"
+  group="fractalgag"
+  match="* arrives from the *."
+  omit_from_output="y"
+  sequence="100"
+  >
+  </trigger>
+  <trigger
+  enabled="y"
+  group="fractalgag"
+  match="* considers * chances of taking on the whole room!"
+  omit_from_output="y"
+  sequence="100"
+  >
+  </trigger>
+  <trigger
    enabled="y"
    group="fractalgag"
    match="* scans * looking for lifesigns."

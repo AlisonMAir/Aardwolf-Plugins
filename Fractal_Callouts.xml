@@ -67,6 +67,16 @@ frac <text> - Announces <text> on yell with bright colors and a (Fractal) tag so
 frac If you are not in a maze, walk around to find the fractal lamp and attack it, but do not kill it until the core is dead.</send>
   </trigger>
   <trigger
+  enabled="y"
+  group="fractaltrigger"
+  match="^\*\*\*       MORE BAD POETRY             \*\*\*$"
+  regexp="y"
+  send_to="10"
+  sequence="100"
+ >
+ <send>frac LAMP MINIGAME OVER - Return to center and attack anomaly.</send>
+  </trigger>	
+  <trigger
    enabled="y"
    group="fractaltrigger"
    match="&gt;&gt;&gt;&gt;&gt; INTO A DARK CRATER AT THE CENTER OF THE ROOM  &lt;&lt;&lt;&lt;&lt;"
