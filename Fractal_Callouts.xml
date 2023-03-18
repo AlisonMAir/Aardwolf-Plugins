@@ -43,7 +43,7 @@ frac <text> - Announces <text> on yell with bright colors and a (Fractal) tag so
    send_to="10"
    sequence="100"
   >
-  <send>frac CLOCK MINIGAME OVER - Return to center and attack anomaly.</send>
+  <send>frac CLOCK MINIGAME OVER - @YReturn@W to center and @Yattack@W anomaly.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -52,7 +52,7 @@ frac <text> - Announces <text> on yell with bright colors and a (Fractal) tag so
    send_to="10"
    sequence="100"
   >
-  <send>frac CLOCK MINIGAME - Flee/retreat from center immediately and do not return to it until I say it is safe.</send>
+  <send>frac CLOCK MINIGAME - @YFlee/retreat@W from center immediately and do not return to it until I say it is safe.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -62,9 +62,9 @@ frac <text> - Announces <text> on yell with bright colors and a (Fractal) tag so
    send_to="10"
    sequence="100"
   >
-  <send>frac LAMP MINIGAME - If you are in a maze, walk around to find the core and attack it. Call out that core is on you if you find it so people can hunt to you. Call out when you have killed the core.
+  <send>frac LAMP MINIGAME - If you are in a maze, walk around to find and @Yattack the core@W. Call out that core is on you if you find it so people can hunt to you. Call out when you have killed the core.
 
-frac If you are not in a maze, walk around to find the fractal lamp and attack it, but do not kill it until the core is dead.</send>
+frac If you are not in a maze, walk around to find and @Yattack the fractal lamp@W, but do not kill it until the core is dead.</send>
   </trigger>
   <trigger
   enabled="y"
@@ -74,7 +74,7 @@ frac If you are not in a maze, walk around to find the fractal lamp and attack i
   send_to="10"
   sequence="100"
  >
- <send>frac LAMP MINIGAME OVER - Return to center and attack anomaly.</send>
+ <send>frac LAMP MINIGAME OVER - @YReturn@W to center and @Yattack@W anomaly.</send>
   </trigger>	
   <trigger
    enabled="y"
@@ -84,7 +84,7 @@ frac If you are not in a maze, walk around to find the fractal lamp and attack i
    sequence="100"
   >
   <send>epics @W(@MFractals@W) @WFractals of the Weave has started. Please turn on yells if you are participating so you can hear the callouts.@w
-frac Fractals of the Weave has started. Go 3s of recall, enter abyss, then attack anomaly.
+frac Fractals of the Weave has started. Go 3s of recall, @Yenter abyss@W, then @Yattack anomaly@W.
 enter abyss</send>
   </trigger>
   <trigger
@@ -94,7 +94,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac TIDAL WAVE MINIGAME - I will call out a direction. Go to the furthest room in that direction immediately and wait there until I say it is safe.</send>
+  <send>frac TIDAL WAVE MINIGAME - I will call out a direction. @YGo to the furthest room in that direction@W immediately and wait there until I say it is safe.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -103,7 +103,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac LAMP MINIGAME OVER - Return to center and attack anomaly. May those who died rest in peace.</send>
+  <send>frac LAMP MINIGAME OVER - @YReturn@W to center and @Yattack@W anomaly. May those who died rest in peace.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -113,7 +113,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac PYLON MINIGAME - Flee/retreat from center immediately. Go to the four corners of the arena and kill the pylons there. Return to the center and attack anomaly when they're all dead.</send>
+  <send>frac PYLON MINIGAME - @YFlee/retreat@W from center immediately. Go to the four corners of the arena and @Ykill the pylons@W there. @YReturn@W to the center and @Yattack@W anomaly when they're all dead.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -123,7 +123,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac Victory! Return to the center. To collect your reward: nod, unkeep frac, give frac frac. If you have Fractal Helper, just type "frac" to use its inbuilt alias.</send>
+  <send>frac Victory! @YReturn@W to the center. To collect your reward: nod, unkeep frac, give frac frac. If you have Fractal Helper, just type "frac" to use its inbuilt alias.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -141,7 +141,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac FIRE BLOSSOM MINIGAME - Flee/retreat from center immediately, then proceed to either the northwest or southeast corners of the arena and wait there until I say it is safe.</send>
+  <send>frac FIRE BLOSSOM MINIGAME - @YFlee/retreat@W from center immediately. I will call out two corners. @YProceed to one of them@W and wait until I say it is safe.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -150,7 +150,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac FIRE BLOSSOM MINIGAME OVER - Return to center and attack anomaly.</send>
+  <send>frac FIRE BLOSSOM MINIGAME OVER - @YReturn@W to center and @Yattack@W anomaly.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -159,7 +159,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac FAKE ANOMALY MINIGAME OVER - Return to center and attack anomaly.</send>
+  <send>frac FAKE ANOMALY MINIGAME OVER - @YReturn@W to center and @Yattack@W anomaly.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -168,7 +168,7 @@ enter abyss</send>
    send_to="10"
    sequence="100"
   >
-  <send>frac FAKE ANOMALY MINIGAME - There's an anomaly in each of the four nooks (N/S/E/W). Find and kill the real one: it will have the phrase "Despite being somewhat unique" in its description. </send>
+  <send>frac FAKE ANOMALY MINIGAME - There's an anomaly in each of the four nooks (N/S/E/W). @YFind and kill@W the real one: it will have the phrase "Despite being somewhat unique" in its description. </send>
   </trigger>
 </triggers>
 
