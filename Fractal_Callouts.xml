@@ -104,7 +104,7 @@ fractal leader - Announces that you'll be doing callouts this run and reminds ot
   <trigger
    enabled="y"
    group="fractalremindertrigger"
-   match="(Epics) *: 'I am doing fractal callouts this run. Everyone else with the callout plugin, type fractal off.'"
+   match="(Epics) *: 'I am doing fractal callouts this run. Everyone else with the callout plugin, type fractal off.'" 
    send_to="12"
    sequence="100"
   >
@@ -144,7 +144,7 @@ fractal leader - Announces that you'll be doing callouts this run and reminds ot
    send_to="10"
    sequence="100"
   >
-  <send>frac CARAVAN MINIGAME - @YKill@W raiders and riders and do not let them reach the center.</send>
+  <send>frac CARAVAN MINIGAME - @YKill@W and @Yweb@W raiders and riders. Do not let them reach the center.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -310,7 +310,7 @@ enter abyss</send>
    sequence="100"
   >
   <send>
-  EnableTriggerGroup("fractalremindertrigger, false)
+  EnableTriggerGroup("fractalremindertrigger", false)
   SendNoEcho("epics @wI am doing fractal callouts this run. Everyone else with the callout plugin, type@w @Wfractal off@w.")
   EnableTriggerGroup("fractalremindertrigger, true)
   </send>
