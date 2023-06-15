@@ -312,7 +312,7 @@ enter abyss</send>
   <send>
   EnableTriggerGroup("fractalremindertrigger", false)
   SendNoEcho("epics @wI am doing fractal callouts this run. Everyone else with the callout plugin, type@w @Wfractal off@w.")
-  EnableTriggerGroup("fractalremindertrigger, true)
+  EnableTriggerGroup("fractalremindertrigger", true)
   </send>
   </alias>
   <alias
