@@ -67,7 +67,7 @@ fractal leader - Announces that you'll be doing callouts this run and reminds ot
   <trigger
    enabled="y"
    group="fractaltrigger"
-   match="//\/ VOREL FINISHES EXHALING THE WHITE FLAME /\/"
+   match=" //\/ VOREL FINISHES EXHALING THE WHITE FLAME /\/"
    send_to="10"
    sequence="100"
   >
@@ -108,7 +108,7 @@ fractal leader - Announces that you'll be doing callouts this run and reminds ot
    send_to="12"
    sequence="100"
   >
-  <send>SendNoEcho("echo @W(@MFractal@W) Type @Mfractal off@W to turn your callouts off. @M%1@W will be doing callouts today.@w")</send>
+  <send>SendNoEcho("echo @W(@MFractal@W) @M%1@W will be doing callouts today. If that's not you, type @Mfractal off@W to turn callouts off.@w")</send>
   </trigger>
   <trigger
    enabled="y"
@@ -135,7 +135,7 @@ fractal leader - Announces that you'll be doing callouts this run and reminds ot
    send_to="10"
    sequence="100"
   >
-  <send>frac FAE MINIIGAME OVER - @YReturn@W to center and @Yattack@W anomaly.</send>
+  <send>frac FAE MINIGAME OVER - @YReturn@W to center and @Yattack@W anomaly.</send>
   </trigger>
   <trigger
    enabled="y"
@@ -331,7 +331,7 @@ SendNoEcho("echo @W(@MFractal@W) Fractal callouts turned off.@w")</send>
    sequence="100"
   >
   <send>EnableTriggerGroup("fractaltrigger", true)
-SendNoEcho("echo @W(@MFractal@W) Fractal callouts turned on. Make sure you're the only one doing callouts!@w")</send>
+SendNoEcho("echo @W(@MFractal@W) Fractal callouts turned on. You can use @Mfractal leader@W to announce that you're doing callouts this run.@w")</send>
   </alias>
   <alias
    match="frac *"
