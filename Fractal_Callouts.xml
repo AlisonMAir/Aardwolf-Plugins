@@ -67,7 +67,7 @@ fractal leader - Announces that you'll be doing callouts this run and reminds ot
   <trigger
    enabled="y"
    group="fractaltrigger"
-   match=" //\/ VOREL FINISHES EXHALING THE WHITE FLAME /\/"
+   match=" /\/ VOREL FINISHES EXHALING THE WHITE FLAME /\/"
    send_to="10"
    sequence="100"
   >
